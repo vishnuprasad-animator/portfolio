@@ -72,7 +72,7 @@ body {
 ========================== */
 
 .slider {
-    background: url('../img/bg/slider-bg.png') center center no-repeat;
+    background: url('../img/bg/slider-bg.pn') center center no-repeat;
     height: calc(100vh - 92px);
     background-attachment: fixed;
     display: flex;
@@ -100,7 +100,7 @@ body {
 .slider .left-content .hello {
     font-size: 20px;
     font-weight: 300;
-    color: #ffffff;
+    color: #333333;
     margin: 0;
     padding: 0;
 }
@@ -119,7 +119,7 @@ body {
 .slider .left-content .paragraph {
     font-size: 14px;
     font-weight: 400;
-    color: #ffffff;
+    color: #474747;
     line-height: 28px;
     padding-right: 20px;
 }
@@ -139,14 +139,19 @@ body {
 /* ==========================
    [03]. About Me
 ========================== */
-
+.pf-pic{
+    background-color: #2d2e2e;
+}
 .about-me {
     padding: 130px 0;
     background: #2d2e2e;
 }
 
 .about-me img {
-    padding-right: 50px;
+    /* padding-right: 50px; */
+    border: 8px solid white;
+    border-radius: 10%;
+    
 }
 
 .about-me h2 {

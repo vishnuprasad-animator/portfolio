@@ -38,3 +38,10 @@ $(function() {
 
 
 });
+
+var btn = document.querySelector(".btn-1")
+console.log(btn)
+btn.addEventListener("click", () => {
+    alert("hi")
+})
+
